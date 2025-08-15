@@ -1,0 +1,34 @@
+# This is a comment
+"""
+This is a multi-line comment
+You can write comments like this
+to explain your code.
+
+"""
+# types of data types
+#integer its a whole number (Example: 10)
+
+#float its a decimal number (Example: 10.5)
+
+#string its a text (Example: "Hello World")
+
+#boolean its a true or false value (True/False)
+
+#Complex its a number with real and imaginary parts (Example: 3 + 4j)
+
+#tuple its a list that cannot be changed (Example: (1, 2, 3))
+
+#list its a collection of items and you can change them  (Example: [1, 2, 3])
+
+#dictionary its a collection of key-value pairs (Example: {"key": "value"})
+                                                          #{"name": "Emmanuel", "age": 25})
+
+#set its a collection of unique items where duplicates arent allowed (Example: {1, 2, 3})
+
+#frozenset its a set that cannot be changed (Example:frozen_colors = frozenset({"red", "green", "blue"})
+
+# frozen_colors.add("yellow")  # Error: Can't change frozenset
+
+#char its a single character (Example: 'A')
+
+# \n its a newline character used to create a new line in a string (Example: "Hello\nWorld")
