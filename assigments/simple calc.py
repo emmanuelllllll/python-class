@@ -17,16 +17,15 @@ print("The division of", num1, "and", num2, "is:", division)
 """
 
 
-num1 = int (input("enter the first number:"))
-num2 = int (input("enter the second number:"))
-# Addition
-print(f"Addition: {num1} + {num2} = {num1 + num2} (adds the two numbers)")
-
-# Subtraction
-print(f"Subtraction: {num1} - {num2} = {num1 - num2} ( subtracts the second number from the first)")
-
-# Multiplication
-print(f"Multiplication: {num1} * {num2} = {num1 * num2} ( multiplies two numbers)")
-
-# Division
-print(f"Division: {num1} / {num2} = {num1 / num2} ( divides two numbers)")
+num1 = int(input("enter the first number: "))
+num2 = int(input("enter the second number: "))
+method = input("what method of calculation do you want to perform? (addition, subtraction, multiplication, division): ")
+if method == "addition":
+    print(f"The sum of {num1} and {num2} is: {num1 + num2}")
+elif method == "subtraction":
+    print(f"The difference between {num1} and {num2} is: {num1 - num2}")
+elif method == "multiplication":
+    print(f"The product of {num1} and {num2} is: {num1 * num2}")
+elif method == "division":
+    print(f"The quotient of {num1} and {num2} is: {num1 / num2}")
+print ("Thank you for using the calculator!")
