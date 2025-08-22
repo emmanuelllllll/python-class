@@ -6,7 +6,7 @@ Keep asking until they guess correctly
 When guessed right, print "Correct! You win."
 """
 
-secret_number = 8 
+secret_number = 10 
 guess = None 
 while guess != secret_number:
     guess = int(input("Guess the number (between 1 and 10): "))
