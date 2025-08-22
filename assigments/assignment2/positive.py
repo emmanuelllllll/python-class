@@ -7,7 +7,7 @@ It should also only stop running until the user gives you a negative number
 """
 number = 0
 while number >= 0:
-    number = int(input("Enter a positive number (negative to stop): "))
+    number = int(input("Enter a positive number: "))
     if number >= 0:
         print(f"You entered: {number}")
     else:
