@@ -40,3 +40,11 @@ for word in name:
 # nested loop
 # A nested loop is a loop inside another loop. The inner loop will be executed one time for each iteration of the outer loop.
 
+package = [["bread", "milk", "eggs"],
+           ["apples", "bananas", "grapes"],
+           ["chicken", "beef", "pork"]]
+for category in package:
+    print("Category:")
+    for item in category:
+        print(f"- {item}")
+
