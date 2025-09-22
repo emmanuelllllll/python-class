@@ -1,18 +1,16 @@
-"""
-assignment 3 count down app
-Count down:
-I have a bomb that I want to detonate at Aptech but I dont want to be caught in the blast 
+import time
 
-Help me design and develop a countdown timer that counts down from 10 to 1
-"""
+def countdown_timer(start=10):
+    """
+    Counts down from the specified start value to 1, pausing 1 second between each number.
+    """
+    count = start
+    while count >= 1:
+        print(count)
+        time.sleep(1)
+        count -= 1
+    print("Countdown finished.")
 
-import time 
-
-count = 10  
-
-while count >= 1:
-    print(count)
-    time.sleep(1) 
-    count = count - 1
-
-print("Boom! Countdown finished you are dead GOODBYE.")
+# Example usage:
+# countdown_timer()
+ 
