@@ -14,3 +14,4 @@ def getNum2():
 
 def getOperation():
     return input("Enter operation (add, sub, mult, div): ")
+
